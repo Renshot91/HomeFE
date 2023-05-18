@@ -1,0 +1,9 @@
+div {
+background-color:silver;
+}
+.block-1, .block-2, .block-3, .block-4 {
+background-color:#34495E ; 
+border-radius: 20px; 
+padding: 21px;
+margin-top: 20px;
+}
