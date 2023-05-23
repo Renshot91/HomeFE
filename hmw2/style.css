@@ -1,0 +1,25 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+h2 {
+    margin: 30px;
+}
+li {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+ 
+}
+
+table {
+    border: 2px solid black;
+    border-radius: collapse;
+  
+}
+td,th {
+    
+    margin: 20px;
+    padding: 1px;
+    border: 1px solid black;
+}
