@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.squaer {
+    width: 200px;
+    height: 200px;
+    transition: all 0.5s ease;
+}
+.red {
+    background-color: red;
+    
+}
+.green {  
+    left: 60px;
+    top: 70px;
+    background-color: green;
+    z-index: 1;
+    position: absolute;
+
+}
+.blue {
+    position: absolute;
+    left: 100px;
+    top: 120px;
+   background-color: blue;
+   z-index: -1;
+}
+.green:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(-45deg);
+}
